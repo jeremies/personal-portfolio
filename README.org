@@ -1,5 +1,5 @@
-* Personal portfolio of freeCodeCamp projects
-A personal portfolio of my best freeCodeCamp projects:
+* Personal portfolio for my freeCodeCamp projects
+A personal portfolio for my best freeCodeCamp projects:
 
 https://jeremies.github.io/personal-portfolio/
 
