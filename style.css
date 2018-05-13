@@ -1,0 +1,222 @@
+/* Standard */
+
+body {
+	background-color: #2d6b22;
+	margin-top: 50px;
+	font: 400 15px Lato, sans-serif;
+}
+
+h1, h2 {
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 15px;
+}
+
+div#about, div#portfolio, div#tools {
+	padding-bottom: 30px;
+}
+
+/* Navigation bar */
+
+.navbar, .navbar-brand {
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+}
+
+.navbar-default {
+  background-color: #2e3c1c;
+  border-color: #559364;
+}
+.navbar-default .navbar-brand {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-text {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #2e3c1c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #f7f7f7;
+  background-color: #559364;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #559364;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #f7f7f7;
+  background-color: #559364;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f7f7f7;
+  background-color: #559364;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f7f7f7;
+  background-color: #559364;
+}
+.navbar-default .navbar-toggle {
+  border-color: #559364;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #559364;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f7f7f7;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f7f7f7;
+}
+.navbar-default .navbar-link {
+  color: #f7f7f7;
+}
+.navbar-default .navbar-link:hover {
+  color: #f7f7f7;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f7f7f7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f7f7f7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f7f7f7;
+    background-color: #559364;
+  }
+}
+
+/* About */
+
+#about.container {
+	background-color: #8ab446;
+}
+
+#about p {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#about img {
+	width: 250px;
+	margin: 20px auto;
+}
+
+/* Portfolio */
+
+#portfolio.container {
+	background-color: #d3e29d;
+}
+
+#portfolio img {
+	transition: opacity 0.5s;
+}
+#portfolio img:hover {
+	opacity: 0.80;
+}
+
+#portfolio .panel {
+    border: 0;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	float: none;
+}
+
+#portfolio .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+#portfolio .panel-heading {
+    padding: 0;
+}
+
+#portfolio .panel-body a {
+	font-size: 1.8em;
+	font-weight: 600;
+	line-height: 25px;
+	cursor: pointer;
+	color: rgba(0,0,0,.7);
+	text-decoration: none;
+}
+
+#portfolio .panel-body p {
+	font-size: 1.2em;
+	line-height: 140%;
+	margin: 15px 0 1em;
+	text-align: left;
+}
+
+#portfolio .panel-body .tags {
+	font-size: 1.2em;
+}
+
+#portfolio .panel-footer {
+	background-color:  #fff !important;
+}
+
+/* Tools */
+
+#tools.container {
+	background-color: #8ab446;
+	font-size: 7em;
+}
+
+
+/* Contact */
+
+#contact.container {
+	background-color: #d3e29d;
+}
+
+/* Footer */
+
+#footer {
+	color: white;
+}
+
+#footer a {
+	color: #00ffe480;
+}
+
+#footer a:hover {
+	color: #a9a9a9;
+}
+
+#footer h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+hr.small {
+    max-width: 100px;
+}

@@ -1,0 +1,24 @@
+* Personal portfolio of freeCodeCamp projects
+A personal portfolio of my best freeCodeCamp projects:
+
+https://jeremies.github.io/personal-portfolio/
+
+Here is the statment of the exercise:
+
+[[https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage][Build a Personal Portfolio Webpage | freeCodeCamp]]
+** Made using
+- [[https://developer.mozilla.org/es/docs/HTML/HTML5][HTML5 - HTML | MDN]]
+- [[https://developer.mozilla.org/es/docs/Web/CSS/CSS3][CSS3 - CSS | MDN]]
+- [[https://getbootstrap.com/][Bootstrap · The most popular HTML, CSS, and JS library in the world.]]
+- [[http://jquery.com/][jQuery]]
+- [[https://pages.github.com/][GitHub Pages | Websites for you and your projects, hosted directly
+  from your GitHub repository. Just edit, push, and your changes are
+  live.]]
+** Some features
+- [X] You can access all of the portfolio webpage's content just by scrolling.
+- [X] You can click different buttons that will take you to the
+  portfolio creator's different social media pages.
+- [X] You can see thumbnail images of different projects the portfolio
+  creator has built. 
+- [X] You can navigate to different sections of the webpage by clicking
+  buttons in the navigation.
